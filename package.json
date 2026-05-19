@@ -9,3 +9,4 @@
     "typecheck": "tsc",
     "preview": "vite preview",
     "tauri": "tauri",
+    "desktop:dev": "tauri dev",
