@@ -22,3 +22,4 @@
       "react-router-dom": "^6.28.0",
       "recharts": "^2.13.3",
       "lucide-react": "^0.460.0",
+      "date-fns": "^4.1.0",
