@@ -8,3 +8,4 @@
     "build": "vite build",
     "typecheck": "tsc",
     "preview": "vite preview",
+    "tauri": "tauri",
