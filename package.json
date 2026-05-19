@@ -10,3 +10,4 @@
     "preview": "vite preview",
     "tauri": "tauri",
     "desktop:dev": "tauri dev",
+    "desktop:build": "tauri build"
