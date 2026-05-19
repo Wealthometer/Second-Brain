@@ -7,3 +7,4 @@
     "dev": "vite",
     "build": "vite build",
     "typecheck": "tsc",
+    "preview": "vite preview",
