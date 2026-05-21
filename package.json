@@ -24,3 +24,4 @@
       "lucide-react": "^0.460.0",
       "date-fns": "^4.1.0",
       "framer-motion": "^11.11.17",
+      "clsx": "^2.1.1",
