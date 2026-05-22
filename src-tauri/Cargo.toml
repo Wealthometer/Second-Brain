@@ -7,3 +7,11 @@ edition = "2021"
 build = "build.rs"
 
 [lib]
+name = "second_brain_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "second-brain"
+path = "src/main.rs"
+
+[build-dependencies]
