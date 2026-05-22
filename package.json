@@ -29,3 +29,4 @@
     },
     "devDependencies": {
       "@tauri-apps/cli": "^2.0.0",
+      "@types/react": "^18.3.12",
