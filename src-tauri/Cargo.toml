@@ -5,3 +5,4 @@ description = "Personal Intelligence OS - AI Desktop Memory System"
 authors = ["you"]
 edition = "2021"
 build = "build.rs"
+
