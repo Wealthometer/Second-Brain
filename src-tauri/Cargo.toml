@@ -2,3 +2,4 @@
 name = "second-brain"
 version = "0.1.0"
 description = "Personal Intelligence OS - AI Desktop Memory System"
+authors = ["you"]
