@@ -33,3 +33,4 @@
 ### 📊 System Monitoring (live)
 - CPU usage + top processes
 - RAM / disk / network
+- CPU temperature (where available)
