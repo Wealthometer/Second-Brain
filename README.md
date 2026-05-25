@@ -26,3 +26,4 @@
 - **Conversational chat** — ask Aria anything about your day, system, productivity
 - **Proactive summaries** — Aria speaks a productivity insight every N minutes
 - **TTS engines supported:**
+  - macOS: `say` (built-in, no install)
