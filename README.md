@@ -20,3 +20,4 @@
   - RAM critical
   - Disk almost full
   - Battery low / critical
+- **Two AI modes:**
