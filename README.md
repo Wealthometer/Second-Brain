@@ -7,3 +7,4 @@
 ## ✨ Features
 
 ### 🗂️ Activity Memory
+- **Clipboard history** — every text you copy, searchable instantly
