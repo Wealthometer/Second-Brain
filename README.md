@@ -38,3 +38,4 @@
 
 ### 🔐 Privacy
 - **100% local** — all data in SQLite in your app data folder
+- Configurable excluded apps and paths
