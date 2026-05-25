@@ -35,3 +35,4 @@
 - RAM / disk / network
 - CPU temperature (where available)
 - Battery status
+
