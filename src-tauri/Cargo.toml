@@ -53,3 +53,4 @@ windows = { version = "0.58", features = [
     "Win32_UI_Accessibility",
 ] }
 
+[target.'cfg(target_os = "macos")'.dependencies]
