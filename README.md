@@ -21,3 +21,4 @@
   - Disk almost full
   - Battery low / critical
 - **Two AI modes:**
+  - 🏠 **Ollama (local)** — runs entirely on your machine, 100% private (llama3, mistral, phi3, gemma2...)
