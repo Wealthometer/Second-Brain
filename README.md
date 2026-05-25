@@ -8,3 +8,4 @@
 
 ### 🗂️ Activity Memory
 - **Clipboard history** — every text you copy, searchable instantly
+- **App usage tracking** — time per app, categorized (dev, browser, productivity, etc.)
