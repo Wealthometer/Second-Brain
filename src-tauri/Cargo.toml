@@ -61,3 +61,4 @@ objc = "0.2"
 panic = "abort"
 codegen-units = 1
 lto = true
+opt-level = "s"
