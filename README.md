@@ -6,3 +6,4 @@
 
 ## ✨ Features
 
+### 🗂️ Activity Memory
