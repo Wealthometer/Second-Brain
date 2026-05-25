@@ -24,4 +24,5 @@
   - 🏠 **Ollama (local)** — runs entirely on your machine, 100% private (llama3, mistral, phi3, gemma2...)
   - ☁️ **OpenRouter (cloud)** — GPT-4o-mini, Claude Haiku, Mistral, etc.
 - **Conversational chat** — ask Aria anything about your day, system, productivity
+- **Proactive summaries** — Aria speaks a productivity insight every N minutes
 - **TTS engines supported:**
