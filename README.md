@@ -13,3 +13,4 @@
 - **Browser history** — reads Chrome, Firefox, Edge, Brave, Arc, Safari directly
 - **Active window tracking** — which app/window is focused and for how long
 - **Searchable timeline** — full-text search across everything via SQLite FTS5
+
