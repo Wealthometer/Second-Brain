@@ -27,3 +27,4 @@
 - **Proactive summaries** — Aria speaks a productivity insight every N minutes
 - **TTS engines supported:**
   - macOS: `say` (built-in, no install)
+  - Windows: PowerShell SAPI (built-in, no install)
