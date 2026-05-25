@@ -32,3 +32,4 @@ rusqlite = { version = "0.31", features = ["bundled", "chrono"] }
 chrono = { version = "0.4", features = ["serde"] }
 uuid = { version = "1", features = ["v4"] }
 anyhow = "1"
+env_logger = "0.11"
