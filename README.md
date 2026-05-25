@@ -15,3 +15,4 @@
 - **Searchable timeline** — full-text search across everything via SQLite FTS5
 
 ### 🤖 Aria — Voice AI Assistant
+- **Critical system alerts** spoken aloud:
