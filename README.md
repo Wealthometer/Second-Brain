@@ -17,3 +17,4 @@
 ### 🤖 Aria — Voice AI Assistant
 - **Critical system alerts** spoken aloud:
   - CPU overload / overheating
+  - RAM critical
