@@ -18,3 +18,4 @@
 - **Critical system alerts** spoken aloud:
   - CPU overload / overheating
   - RAM critical
+  - Disk almost full
