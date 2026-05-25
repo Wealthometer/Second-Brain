@@ -58,3 +58,4 @@ cocoa = "0.26"
 objc = "0.2"
 
 [profile.release]
+panic = "abort"
