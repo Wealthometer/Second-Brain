@@ -30,4 +30,5 @@
   - Windows: PowerShell SAPI (built-in, no install)
   - Linux: `espeak-ng`, `festival`, or `piper` (neural TTS)
 
+### 📊 System Monitoring (live)
 - CPU usage + top processes
