@@ -19,3 +19,4 @@
   - CPU overload / overheating
   - RAM critical
   - Disk almost full
+  - Battery low / critical
