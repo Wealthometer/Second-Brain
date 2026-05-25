@@ -30,3 +30,4 @@
   - Windows: PowerShell SAPI (built-in, no install)
   - Linux: `espeak-ng`, `festival`, or `piper` (neural TTS)
 
+- CPU usage + top processes
