@@ -36,3 +36,4 @@
 - CPU temperature (where available)
 - Battery status
 
+### 🔐 Privacy
