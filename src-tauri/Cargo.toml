@@ -44,3 +44,4 @@ regex = "1"
 fuzzy-matcher = "0.3"
 once_cell = "1"
 
+[target.'cfg(target_os = "windows")'.dependencies]
