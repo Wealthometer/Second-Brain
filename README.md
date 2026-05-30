@@ -40,3 +40,4 @@
 - **100% local** — all data in SQLite in your app data folder
 - Configurable excluded apps and paths
 - Data retention controls (auto-prune after N days)
+- Export everything as JSON
