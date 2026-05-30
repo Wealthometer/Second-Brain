@@ -42,3 +42,4 @@
 - Data retention controls (auto-prune after N days)
 - Export everything as JSON
 
+---
