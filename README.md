@@ -75,7 +75,7 @@ sudo apt update && sudo apt install -y \
 ### Clone & Run
 
 ```bash
-git clone https://github.com/you/second-brain
+git clone https://github.com/Wealthometer/Second-Brain
 cd second-brain
 
 npm install
