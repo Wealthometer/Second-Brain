@@ -1,0 +1,13 @@
+.view { display: flex; flex-direction: column; gap: 12px; max-width: 800px; }
+.header { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-secondary); padding-bottom: 8px; border-bottom: 1px solid var(--border-dim); }
+.loading { color: var(--text-muted); font-size: 13px; padding: 20px; }
+.list { display: flex; flex-direction: column; gap: 4px; }
+.entry { background: var(--bg-raised); border: 1px solid var(--border-dim); border-radius: var(--radius-sm); padding: 12px 14px; transition: border-color var(--transition-fast); }
+.entry:hover { border-color: var(--border-subtle); }
+.entryContent { font-family: var(--font-mono); font-size: 12px; color: var(--text-primary); white-space: pre-wrap; word-break: break-all; max-height: 80px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; }
+.entryMeta { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.app { font-size: 10px; color: var(--text-muted); background: var(--bg-overlay); padding: 1px 6px; border-radius: 3px; border: 1px solid var(--border-dim); }
+.time { display: flex; align-items: center; gap: 3px; font-size: 10px; color: var(--text-ghost); font-family: var(--font-mono); margin-left: auto; }
+.copyBtn { display: flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 4px; border: 1px solid var(--border-subtle); background: transparent; color: var(--text-secondary); font-size: 11px; cursor: pointer; transition: all var(--transition-fast); }
+.copyBtn:hover { border-color: var(--border-accent); color: var(--accent); }
+.empty { color: var(--text-muted); padding: 40px; text-align: center; font-size: 13px; }
