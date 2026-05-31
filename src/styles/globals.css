@@ -1,0 +1,182 @@
+/* ── Second Brain - Dark Intelligence OS Theme ── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Core palette */
+  --bg-void: #050507;
+  --bg-deep: #080b10;
+  --bg-base: #0c1018;
+  --bg-raised: #111827;
+  --bg-elevated: #1a2332;
+  --bg-overlay: #1f2d42;
+
+  /* Borders */
+  --border-dim: rgba(255,255,255,0.04);
+  --border-subtle: rgba(255,255,255,0.08);
+  --border-visible: rgba(255,255,255,0.12);
+  --border-accent: rgba(99,219,177,0.3);
+
+  /* Text */
+  --text-primary: #e8edf5;
+  --text-secondary: #8b9bb4;
+  --text-muted: #4a5568;
+  --text-ghost: #2d3748;
+
+  /* Accent - electric teal/green */
+  --accent: #3dffa0;
+  --accent-dim: #1a8a52;
+  --accent-glow: rgba(61, 255, 160, 0.15);
+  --accent-glow-strong: rgba(61, 255, 160, 0.25);
+
+  /* Secondary accent - electric blue */
+  --accent2: #4da6ff;
+  --accent2-dim: #1a4a8a;
+  --accent2-glow: rgba(77, 166, 255, 0.12);
+
+  /* Warning/alert */
+  --warn: #ffb347;
+  --warn-dim: rgba(255,179,71,0.15);
+  --danger: #ff5f5f;
+  --danger-dim: rgba(255,95,95,0.12);
+
+  /* Semantic colors */
+  --color-development: #4da6ff;
+  --color-browser: #a78bfa;
+  --color-communication: #fb923c;
+  --color-productivity: #3dffa0;
+  --color-entertainment: #f472b6;
+  --color-terminal: #22d3ee;
+  --color-design: #fbbf24;
+  --color-other: #6b7280;
+
+  /* Typography */
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Layout */
+  --sidebar-width: 220px;
+  --topbar-height: 56px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* Transitions */
+  --transition-fast: 120ms ease;
+  --transition-base: 220ms ease;
+  --transition-slow: 400ms ease;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg-void);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-visible);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* Selection */
+::selection {
+  background: var(--accent-glow-strong);
+  color: var(--accent);
+}
+
+/* Utility classes */
+.font-mono { font-family: var(--font-mono); }
+.font-display { font-family: var(--font-display); }
+
+.text-accent { color: var(--accent); }
+.text-accent2 { color: var(--accent2); }
+.text-muted { color: var(--text-muted); }
+.text-secondary { color: var(--text-secondary); }
+
+/* Glass card */
+.glass {
+  background: var(--bg-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(12px);
+}
+
+/* Glow effects */
+.glow-accent { box-shadow: 0 0 20px var(--accent-glow); }
+.glow-blue { box-shadow: 0 0 20px var(--accent2-glow); }
+
+/* Noise texture overlay for depth */
+.noise::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  border-radius: inherit;
+  opacity: 0.4;
+}
+
+/* Animated gradient border */
+@keyframes borderGlow {
+  0%, 100% { border-color: rgba(61, 255, 160, 0.2); }
+  50% { border-color: rgba(61, 255, 160, 0.5); }
+}
+
+/* Pulse dot */
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
+}
+
+.pulse-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 6px var(--accent-glow-strong);
+}
+
+/* Scan line effect */
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Category color helpers */
+.cat-development { color: var(--color-development); }
+.cat-browser { color: var(--color-browser); }
+.cat-communication { color: var(--color-communication); }
+.cat-productivity { color: var(--color-productivity); }
+.cat-entertainment { color: var(--color-entertainment); }
+.cat-terminal { color: var(--color-terminal); }
+.cat-design { color: var(--color-design); }
+.cat-other { color: var(--color-other); }
