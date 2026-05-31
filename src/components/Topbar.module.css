@@ -1,0 +1,116 @@
+.topbar {
+  height: var(--topbar-height);
+  border-bottom: 1px solid var(--border-subtle);
+  background: var(--bg-deep);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 5;
+}
+
+.left {
+  flex-shrink: 0;
+}
+
+.viewTitle {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.searchWrap {
+  flex: 1;
+  max-width: 480px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 0 12px;
+  transition: border-color var(--transition-fast);
+}
+
+.searchWrap:focus-within {
+  border-color: var(--border-accent);
+  box-shadow: 0 0 0 2px var(--accent-glow);
+}
+
+.searchIcon {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.searchInput {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--text-primary);
+  padding: 9px 0;
+}
+
+.searchInput::placeholder {
+  color: var(--text-muted);
+}
+
+.searchShortcut {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  padding: 2px 5px;
+  background: var(--bg-overlay);
+  border: 1px solid var(--border-dim);
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.memoryPill {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background: var(--accent-glow);
+  border: 1px solid var(--border-accent);
+  border-radius: 20px;
+  font-size: 11px;
+  color: var(--accent);
+  font-family: var(--font-mono);
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1px;
+}
+
+.clockTime {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+}
+
+.clockDate {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+}
